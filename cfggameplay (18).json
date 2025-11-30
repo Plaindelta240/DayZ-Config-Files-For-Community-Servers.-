@@ -1,0 +1,122 @@
+{
+    "version": 122,
+    "GeneralData": {
+        "disableBaseDamage": true,
+        "disableContainerDamage": true,
+        "disableRespawnDialog": false,
+        "disableRespawnInUnconsciousness": false
+    },
+    "PlayerData": {
+        "disablePersonalLight": false,
+        "spawnGearPresetFiles": [],
+        "StaminaData": {
+            "sprintStaminaModifierErc": 0,
+            "sprintStaminaModifierCro": 0,
+            "staminaWeightLimitThreshold": 6000,
+            "staminaMax": 1000,
+            "staminaKgToStaminaPercentPenalty": 0,
+            "staminaMinCap": 5,
+            "sprintSwimmingStaminaModifier": 0,
+            "sprintLadderStaminaModifier": 0,
+            "meleeStaminaModifier": 0,
+            "obstacleTraversalStaminaModifier": 1,
+            "holdBreathStaminaModifier": 0
+        },
+        "ShockHandlingData": {
+            "shockRefillSpeedConscious": 5,
+            "shockRefillSpeedUnconscious": 1,
+            "allowRefillSpeedModifier": true
+        },
+        "MovementData": {
+            "timeToStrafeJog": 0.1,
+            "rotationSpeedJog": 0.3,
+            "timeToSprint": 0.45,
+            "timeToStrafeSprint": 0.3,
+            "rotationSpeedSprint": 0.15,
+            "allowStaminaAffectInertia": true
+        },
+        "DrowningData": {
+            "staminaDepletionSpeed": 10,
+            "healthDepletionSpeed": 10,
+            "shockDepletionSpeed": 10
+        }
+    },
+    "WorldsData": {
+        "lightingConfig": 0,
+        "objectSpawnersArr": [],
+        "environmentMinTemps": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+        ],
+        "environmentMaxTemps": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+        ],
+        "wetnessWeightModifiers": [
+            1,
+            1,
+            1.33,
+            1.66,
+            2
+        ],
+        "playerRestrictedAreaFiles": []
+    },
+    "BaseBuildingData": {
+        "HologramData": {
+            "disableIsCollidingBBoxCheck": true,
+            "disableIsCollidingPlayerCheck": true,
+            "disableIsClippingRoofCheck": true,
+            "disableIsBaseViableCheck": true,
+            "disableIsCollidingGPlotCheck": true,
+            "disableIsCollidingAngleCheck": true,
+            "disableIsPlacementPermittedCheck": true,
+            "disableHeightPlacementCheck": true,
+            "disableIsUnderwaterCheck": true,
+            "disableIsInTerrainCheck": true
+        },
+        "ConstructionData": {
+            "disablePerformRoofCheck": true,
+            "disableIsCollidingCheck": true,
+            "disableDistanceCheck": true
+        }
+    },
+    "UIData": {
+        "use3DMap": false,
+        "HitIndicationData": {
+            "hitDirectionOverrideEnabled": true,
+            "hitDirectionBehaviour": 1,
+            "hitDirectionStyle": 0,
+            "hitDirectionIndicatorColorStr": "0xffbb0a1e",
+            "hitDirectionMaxDuration": 2,
+            "hitDirectionBreakPointRelative": 0.2,
+            "hitDirectionScatter": 10,
+            "hitIndicationPostProcessEnabled": true
+        }
+    },
+    "MapData": {
+        "ignoreMapOwnership": true,
+        "ignoreNavItemsOwnership": true,
+        "displayPlayerPosition": true,
+        "displayNavInfo": true
+    }
+}
